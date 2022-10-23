@@ -32,3 +32,4 @@ k = np.array([
     [4, 8]
 ])
 print(k.mean(axis=1))
+
