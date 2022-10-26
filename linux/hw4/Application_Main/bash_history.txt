@@ -1,0 +1,12 @@
+    1  cd Application_Main
+    2  source env/bin/activate
+    3  pip3 install requests
+    4  touch scp.py
+    5  chmod +x scp.py
+    6  ls -la
+    7  nano scp.py
+    8  which python3
+    9  nano scp.py
+   10  ./scp.py
+   11  deactivate
+   12  exit

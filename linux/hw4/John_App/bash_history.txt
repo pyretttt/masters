@@ -1,0 +1,34 @@
+    1  cd ..
+    2  cd John_App
+    3  source env/bin/activate
+    4  pip3 install numpy
+    5  touch scp.py
+    6  chmod +X scp.py
+    7  ls -la
+    8  chmod +x scp.py
+    9  ls -la
+   10  nano scp.py
+   11  ./scp.py
+   12  nano scp.py
+   13  python3 scp.py
+   14  nano scp.py
+   15  python3 scp.py
+   16  which python3
+   17  python3 scp.py
+   18  nano scp.py
+   19  ./scp.py
+   20  deactivate
+   21  cd ..
+   22  su Daisy
+   23  exit
+   24  sudo cp -R /etc/home/John_App /home/pyretttt/buffer
+   25  exit
+   26  sudo cp -R /etc/home/John_App /home/pyretttt/buffer
+   27  exit
+   28  history 200 > bash_history.txt
+   29  sudo history 200 > bash_history.txt
+   30  cd /home/pyretttt/buffer
+   31  exit
+   32  sudo history 200 > bash_history.txt
+   33  ls
+   34  history 200

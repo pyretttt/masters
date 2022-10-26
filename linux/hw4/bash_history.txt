@@ -1,0 +1,140 @@
+    1  cd ..
+    2  pwd
+    3  cd hw2
+    4  touch shadow
+    5  nano shadow
+    6  cat shadow
+    7  sudo adduser student7
+    8  sudo adduser student8
+    9  sudo adduser student9
+   10  groupadd course
+   11  sudo groupadd course
+   12  usermod -a -G course student7
+   13  sudo usermod -a -G course student7
+   14  sudo usermod -a -G course student8
+   15  sudo usermod -a -G course student9
+   16  sudo chage -E 150 student7
+   17  sudo chage -W 7 student7
+   18  sudo chage -E0 student8
+   19  sudo cp /etc/shadow /run/user/1000/gvfs/dav+sd:host=Spice%2520client%2520folder._webdav._tcp.local/hw2
+   20  cat /etc/shadow
+   21  sudo cat /etc/shadow
+   22  su root
+   23  sudo root
+   24  sudo cat /etc/shadow > /run/user/1000/gvfs/dav+sd:host=Spice%2520client%2520folder._webdav._tcp.local/hw2
+   25  sudo cat /etc/shadow > /run/user/1000/gvfs/dav+sd:host=Spice%2520client%2520folder._webdav._tcp.local/hw2/shadow
+   26  sudo cat /etc/shadow
+   27  pwd
+   28  sudo cat /etc/group > /run/user/1000/gvfs/dav+sd:host=Spice%2520client%2520folder._webdav._tcp.local/hw4/group
+   29  sudo su
+   30  sudo cat /etc/group
+   31  cat group
+   32  ls
+   33  sudo cat /etc/group > group
+   34  sudo su
+   35  touch group
+   36  ls
+   37  rm group
+   38  touch group
+   39  ls
+   40  cd ..
+   41  mkdir hww4
+   42  cd hww4
+   43  touch group
+   44  ls group
+   45  touch group
+   46  cat /etc/group
+   47  nano group
+   48  clear
+   49  cat group
+   50  touch passwd
+   51  cat /etc/passwd
+   52  nano passwd
+   53  clear
+   54  cat passwd
+   55  touch shadow
+   56  cat /etc/shadow
+   57  sudo cat /etc/shadow
+   58  nano shadow
+   59  cat shadow
+   60  sudo userdel student
+   61  root
+   62  su - root
+   63  root
+   64  su - root
+   65  sudo userdel student
+   66  sudo su -
+   67  sudo userdel student7
+   68  sudo userdel student8
+   69  sudo userdel student9
+   70  sudo groupdel student
+   71  sudo usermod -g sudo sudo
+   72  sudo groupdel student
+   73  groups
+   74  groups -a
+   75  groups --help
+   76  man groups
+   77  clear
+   78  sudo adduser John
+   79  sudo adduser John --force-badname
+   80  sudo adduser Daisy --force-badname
+   81  sudo adduser Michael --force-badname
+   82  cd etc/home
+   83  cd /etc/home
+   84  cd /etc/
+   85  mkdir /home
+   86  mkdir home
+   87  sudo mkdir home
+   88  sudo mkdir home/John_App
+   89  sudo mkdir home/Application_Main
+   90  cd /etc/home/John_App
+   91  python3 -m venv env
+   92  sudo python3 -m venv env
+   93  cd /etc/home/Application_Main
+   94  sudo python3 -m venv env
+   95  ls
+   96  ls env
+   97  sudo groupadd JohnApp
+   98  usermod -a -G Ma John
+   99  sudo usermod -a -G JohnApp John
+  100  sudo groupadd MainApp
+  101  sudo usermod -a -G MainApp Daisy
+  102  sudo usermod -a -G MainApp Michael
+  103  cd
+  104  cd /etc/home/Application_Main
+  105  cd ..
+  106  sudo chown -R :JohnApp John_App
+  107  sudo chown -R :MainApp Application_Main
+  108  ls -a
+  109  ls -la
+  110  sudo chmod -R g+w John_App
+  111  ls -la
+  112  sudo chmod -R g+w Application_Main
+  113  ls -la
+  114  cd Application_Main
+  115  su John
+  116  cd
+  117  cat group
+  118  rm group
+  119  sudo cp -R /etc/home/John_App
+  120  sudo cp -R /etc/home/John_App .
+  121  cd ..
+  122  sudo cp -R /etc/home/John_App hww4
+  123  cd hw4
+  124  sudo cp -R /etc/home/John_App hw4
+  125  cd hw4
+  126  sudo cp -R /etc/home/John_App John_App
+  127  clear
+  128  cd John_App
+  129  sudo cp -R /etc/home/John_App/scp.py scp.py
+  130  cd 
+  131  pwd
+  132  mkdir buffer
+  133  su John
+  134  usermod -aG sudo John
+  135  sudo usermod -aG sudo John
+  136  sudo usermod -aG sudo Daisy
+  137  su John
+  138  su Daisy
+  139  history 200
+  140  history 200 > bash_history.txt
